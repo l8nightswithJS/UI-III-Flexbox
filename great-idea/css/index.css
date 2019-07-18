@@ -137,12 +137,13 @@ body {
 	justify-content: space-between;
 }
 
-article {
+.features-articles {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-evenly; 
 	font-size: 22px;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .middle-img {
@@ -178,7 +179,8 @@ h5 {
 }
 
 h6 {
-	margin-top: 50px;
+	margin-top: 100px;
+	margin-bottom: 85px;
 	align-self: center;
 }
 
@@ -196,6 +198,7 @@ h6 {
 	margin: auto;
 	padding-bottom: 30px;
 	border-bottom: 1px solid black;
+	font-size: 22px;
 }
 
 .services-container {
@@ -225,7 +228,7 @@ h6 {
 
 div p {
 	margin: 0px 15px 15px 15px;
-	font-size: 20px;
+	font-size: 23px;
 }
 
 div h4 {
@@ -241,4 +244,50 @@ div h4 {
 .left {
 	margin-right: 23px;
 }
+
+.about-services {
+	width: 1200px;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0px;
+	
+}
+
+.about-services-txt {
+	width: 48%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	margin-top: 35px;
+	font-size: 22px;
+}
+
+.about-p {
+	margin-top: 25px;
+}
+
+.services-info-img {
+	width: 48%;
+	padding-top: 40px;
+	margin-left: 45px;
+}
+
+ul {
+	margin-top: 20px;
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+li {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+.foot {
+	width: 1200px;
+	text-align: center;
+	padding-top: 100px; 
+}
+
+
 
